@@ -13,15 +13,24 @@
   <script>
     const root = document.getElementById("root");
 
-    function newType(dan,number){
+    function newType(dan, number){
       let fish = [];
-      // let sum = 2;
-      for (let i = 1; i <= 9; i++) {
-        // sum = sum * i
-        fish.push(dan*i);
+      for(let i = number; i <= dan; i++){
+        
+        fish.push(dan + i.toFixed());
       }
       return fish;
     }
+    console.log(fish(2, 9))
+    // function newType(dan,number){
+    //   let fish = [];
+    //   // let sum = 2;
+    //   for (let i = 1; i <= 9; i++) {
+    //     // sum = sum * i
+    //     fish.push(dan*i);
+    //   }
+    //   return fish;
+    // }
     // console.log(fish)
     
     // console.log(newType)
