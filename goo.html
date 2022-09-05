@@ -11,39 +11,42 @@
 <body>
   <div id="root"></div>
   <script>
-    /* 
-    1. 구구단 머신 만든다.
-    2. 구구단 리스트 만든다.(2단부터 9단까지)
-    3. 만든 구구단 리스트를 html에 출력한다.
-    4. 
-    */
-    let beedulgi = [];
-    let sum = 0;
-    // function googoo() {
-    //   for (let i = 1; i < 10; i++) {
-    //     beedulgi.push(sum * i);
-    //   }
-    // }
-    // googoo()
-    beedulgi.forEach((item) => {
-      function googoogoo() {
-        sum++
-        beedulgi.push(sum * i);
-      }
-    });
-    console.log(beedulgi);
-
-    // function elemmaker(tagName, innerTag) {
-    //   const googoodan = [];
-
-    //   let goo = `<${tagName}>`;
-
-    //   googoodan.forEach(element => {
-
-    //   });
-    // }
     const root = document.getElementById("root");
 
+    function newType(dan,number){
+      let fish = [];
+      // let sum = 2;
+      for (let i = 1; i <= 9; i++) {
+        // sum = sum * i
+        fish.push()
+      }
+      return sum;
+    }
+    // console.log(fish)
+    
+    // console.log(newType)
+    // newType(3)
+
+    /*
+    let tble = "<table>";
+    for (let i = 1; i <= 10; i++) {
+      
+      tble += '<tr>';
+      for (let j = 2; j <= 9; j++) {
+        if (i == 1) {
+          tble += `<tg>${j}</tg>`;
+        } else {
+          tble += `<td>${j}*${i - 1} = ${j * (i - 1)}`;
+        }
+      }
+      tble += '</tr>';
+    }
+    tble += '</table>'
+    document.getElementById("root").innerHTML = tble;
+    console.log(tble)
+    let multiplyCounter = tble.length
+    console.log(multiplyCounter)
+    */
   </script>
 </body>
 
